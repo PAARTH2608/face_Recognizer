@@ -5,9 +5,6 @@ haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
 people = ['Elon Musk', 'Bill Gates']
 
-# features = np.load('features.npy')
-# labels = np.load('labels.npy')
-
 # instantiate the face recognizer
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
